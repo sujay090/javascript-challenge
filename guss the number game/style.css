@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 
+  Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #fff;
+  color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main{
+    width: 300px;
+    /* height: 300px; */
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.main h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.main p{
+  margin-bottom: 15px;
+}
+
+.Submit{
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* .Submit:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+} */
+
+.Start-game{
+  width: 85px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #43ab02d2;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* .Start-game:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+} */
+
+.input{
+  border: none;
+  height: 40px;
+  background-color: rgba(124, 82, 231, 0.596);
+  border-radius: 8px;
+  outline: none;
+  padding: 8px;
+  color: black;
+  font-size: 15px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-weight: 600;
+}
+.optain{
+  margin-top: 20px;
+}
