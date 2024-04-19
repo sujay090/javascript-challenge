@@ -71,7 +71,7 @@ p{
     overflow: hidden;  
 }
 
-@media (max-width: 384px) {
+@media (max-width: 584px) {
   main h1{
     font-size: 25px;
     margin-bottom: 20px;
